@@ -108,7 +108,7 @@ const OrderHistory = ({ orders, onReorder, onViewDetails }) => {
                     <span className="mx-2">•</span>
                     <span>{order.items.length} item{order.items.length !== 1 ? 's' : ''}</span>
                     <span className="mx-2">•</span>
-                    <span className="font-mono">${order.total.toFixed(2)}</span>
+                    <span className="font-mono">₹{order.total.toFixed(2)}</span>
                   </div>
                   
                   <div className="flex flex-wrap gap-2">

@@ -68,10 +68,10 @@ const CartItem = ({ item, onUpdateQuantity, onRemove }) => {
             {/* Price */}
             <div className="text-right">
               <div className="text-xl font-bold text-foreground font-mono">
-                ${(item.price * item.quantity).toFixed(2)}
+                ₹{(item.price * item.quantity).toFixed(2)}
               </div>
               <div className="text-sm text-muted-foreground font-mono">
-                ${item.price.toFixed(2)} each
+                ₹{item.price.toFixed(2)} each
               </div>
             </div>
           </div>

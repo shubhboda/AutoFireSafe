@@ -102,11 +102,11 @@ const SavedItems = ({ savedItems, onAddToCart, onRemoveFromSaved }) => {
                   <p className="text-sm text-muted-foreground mb-2">{item.category}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-lg font-semibold text-foreground font-mono">
-                      ${item.price.toFixed(2)}
+                      ₹{item.price.toFixed(2)}
                     </span>
                     {item.originalPrice && item.originalPrice > item.price && (
                       <span className="text-sm text-muted-foreground line-through font-mono">
-                        ${item.originalPrice.toFixed(2)}
+                        ₹{item.originalPrice.toFixed(2)}
                       </span>
                     )}
                   </div>

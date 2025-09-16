@@ -19,37 +19,37 @@ const UserAccountDashboard = () => {
 
   // Mock user data
   const [user] = useState({
-    name: "Michael Rodriguez",
-    email: "michael.rodriguez@safetycorp.com",
+    name: "Shubham Boda",
+    email: "shubham.boda@safetycorp.in",
     company: "SafetyCorp Industries",
     role: "Safety Manager",
     memberSince: "March 2022",
-    firstName: "Michael",
-    lastName: "Rodriguez",
-    phone: "+1 (555) 123-4567",
+    firstName: "Shubham",
+    lastName: "Boda",
+    phone: "+91 98765 43210",
     jobTitle: "Safety Manager",
     taxId: "12-3456789",
     industry: "manufacturing",
-    website: "https://safetycorp.com",
+    website: "https://safetycorp.in",
     addresses: [
       {
         id: 1,
         label: "Main Office",
         street: "1234 Industrial Blvd",
-        city: "Chicago",
-        state: "IL",
-        zipCode: "60601",
-        country: "United States",
+        city: "Mumbai",
+        state: "MH",
+        zipCode: "400001",
+        country: "India",
         isDefault: true
       },
       {
         id: 2,
         label: "Warehouse",
         street: "5678 Storage Way",
-        city: "Chicago",
-        state: "IL",
-        zipCode: "60602",
-        country: "United States",
+        city: "Mumbai",
+        state: "MH",
+        zipCode: "400002",
+        country: "India",
         isDefault: false
       }
     ],

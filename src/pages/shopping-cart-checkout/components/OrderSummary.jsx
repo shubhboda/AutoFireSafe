@@ -30,7 +30,7 @@ const OrderSummary = ({ cartItems, shippingCost = 0, taxRate = 0.08 }) => {
               {item.isShipping && item.value === 0 ? (
                 <span className="text-success">FREE</span>
               ) : (
-                `$${item.value.toFixed(2)}`
+                `₹${item.value.toFixed(2)}`
               )}
             </span>
           </div>
@@ -43,7 +43,7 @@ const OrderSummary = ({ cartItems, shippingCost = 0, taxRate = 0.08 }) => {
             Total
           </span>
           <span className="text-xl font-bold text-foreground font-mono">
-            ${total.toFixed(2)}
+            ₹{total.toFixed(2)}
           </span>
         </div>
       </div>
@@ -54,7 +54,7 @@ const OrderSummary = ({ cartItems, shippingCost = 0, taxRate = 0.08 }) => {
           <div className="flex items-center gap-2">
             <Icon name="Gift" size={16} className="text-success" />
             <span className="text-sm font-medium text-success">
-              You saved $25.00 on shipping!
+              You saved ₹25.00 on shipping!
             </span>
           </div>
         </div>

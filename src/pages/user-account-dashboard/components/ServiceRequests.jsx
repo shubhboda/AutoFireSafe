@@ -125,8 +125,8 @@ const ServiceRequests = ({ serviceRequests, onScheduleService, onViewDetails }) 
                         </div>
                       )}
                       <div className="flex items-center space-x-2">
-                        <Icon name="DollarSign" size={14} className="text-muted-foreground" />
-                        <span className="text-muted-foreground font-mono">${request.cost.toFixed(2)}</span>
+                        <Icon name="IndianRupee" size={14} className="text-muted-foreground" />
+                        <span className="text-muted-foreground font-mono">₹{request.cost.toFixed(2)}</span>
                       </div>
                     </div>
                   </div>
